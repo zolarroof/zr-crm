@@ -1,1 +1,11 @@
 Extract into the root of your zr-crm repository.
+
+Then run:
+
+composer install
+composer dump-autoload
+
+Commit:
+git add .
+git commit -m "Initialize Composer and PSR-4 autoloading"
+git push origin development
