@@ -1,0 +1,39 @@
+# Environment
+.env
+.env.local
+
+# Composer
+/vendor/
+composer.lock
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+/storage/logs/*
+!/storage/logs/.gitkeep
+
+# Cache
+/storage/cache/*
+!/storage/cache/.gitkeep
+
+# Sessions
+/storage/sessions/*
+!/storage/sessions/.gitkeep
+
+# Uploads
+/storage/uploads/*
+!/storage/uploads/.gitkeep
+
+# Generated Documents
+/storage/documents/generated/*
+!/storage/documents/generated/.gitkeep
+
+# Temporary
+*.tmp
+*.bak
